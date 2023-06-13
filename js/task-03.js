@@ -23,3 +23,7 @@ const markup = images
   .join("");
 
 galleryGrid.insertAdjacentHTML("afterbegin", markup);
+
+galleryGrid.style.display = "flex";
+galleryGrid.style.gap = "20px";
+galleryGrid.style.listStyle = "none";
